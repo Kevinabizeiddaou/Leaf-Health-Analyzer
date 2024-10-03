@@ -6,13 +6,13 @@ Greenness Calculation: Determines the percentage of green pixels in leaf images 
 PHI Calculation: Calculates the Plant Health Index based on the texture contrast of the leaf image (grayscale contrast).
 Automatic Image Processing: The project processes leaf images from mobile devices to automatically output greenness and PHI values.
 
-#### Project Structure
+### Project Structure
 .
 ├── images/                    # Directory for leaf images
 ├── analysis.py                # Main Python script for analyzing images
 └── README.md                  # Project documentation
 
-Installation
+### Installation
 1. Clone the Repository
 
 git clone https://github.com/Kevinabizeiddaou/leaf-health-analyzer.git
@@ -46,13 +46,13 @@ Usage Example
 To analyze leaf images:
 
 
-Future Enhancements
+### Future Enhancements
 
 1. Add more metrics for leaf health, such as moisture level estimation.
 2. Integrate with a mobile app for real-time analysis in the field.
 3. Add more metrics to make this model predict when and how much to water the leaves in need.
 
 
-Contributing
+### Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
